@@ -14,6 +14,7 @@ import io.restassured.RestAssured;
 @SuppressWarnings("NonAsciiCharacters")
 @DisplayNameGeneration(DisplayNameGenerator.ReplaceUnderscores.class)
 class CartControllerTest {
+
     @LocalServerPort
     int port;
 
